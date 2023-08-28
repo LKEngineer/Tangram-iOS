@@ -5,7 +5,7 @@ platform :ios, '8.0'
 target 'TangramDemo' do
     project 'TangramDemo/TangramDemo.xcodeproj'
     pod 'Tangram', :path => './'
-    pod 'VirtualView' ,:git => 'git@github.com:LKEngineer/VirtualView-iOS.git', :tag => '1.2.7' 
+    pod 'VirtualView' ,:git => 'git@github.com:LKEngineer/VirtualView-iOS.git'
     # pod 'LazyScroll', :path => '../LazyScrollView/'
 end
 

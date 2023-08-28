@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
                    The solution also have an implementation for Andriod platform.
                    DESC
 
-  s.homepage     = "https://github.com/alibaba/Tangram-iOS"
+  s.homepage     = "git@github.com:LKEngineer/Tangram-iOS"
   s.license      = { :type => 'MIT' }
   s.author       = { "fydx"       => "lbgg918@gmail.com",
                      "HarrisonXi" => "gpra8764@gmail.com"}
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/alibaba/Tangram-iOS.git", :tag => "2.1.5" }
+  s.source       = { :git => "git@github.com:LKEngineer/Tangram-iOS.git", :tag => "2.1.5" }
   s.resources    = 'Tangram/Resources/*'
   s.source_files = 'Tangram/**/*.{h,m}'
   

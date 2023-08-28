@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   
   s.dependency 'SDWebImage', '5.8.2'
   s.dependency 'LazyScroll', '1.0.1'
-  s.dependency 'VirtualView'
+  s.dependency 'VirtualView', '1.2.7'
   
 end
